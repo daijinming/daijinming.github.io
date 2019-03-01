@@ -1,1 +1,0 @@
-设置IdentityServer4.admin 的时候，如果一个客户端同时设置 Implit 和 auth
