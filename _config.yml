@@ -2,6 +2,6 @@ theme: jekyll-theme-hacker
 # Site settings
 title: booksos.cn
 description: 读书笔记
-baseurl:
-url: http://booksos.cn
+baseurl:https://booksos.cn
+url: https://booksos.cn
 rss_url:
