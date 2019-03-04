@@ -1,4 +1,5 @@
 - git clone 的另外一种方式
+
 ~~~
 #创建目录，初始化本地仓库
 $ mkdir search && cd search
@@ -9,10 +10,10 @@ $ git pull github --all --tags
 ~~~
 
 - 把工作目录迁移到Github上去
+
 ~~~
 $ git remote add github git@github.com:yyfrankyy/search.git
 $ git push github --all --tags
-
 ~~~
 
 - 显示所有的远程仓库
