@@ -4,36 +4,48 @@
 - mysql-connector-python：是MySQL官方的纯Python驱动；
 - MySQL-python：是封装了MySQL C驱动的Python驱动。
 
-~~~
-easy_install mysql-connector-python
-easy_install MySQL-python
-~~~
 我们以mysql-connector-python为例，演示如何连接到MySQL服务器的test数据库：
 ~~~
-# 导入MySQL驱动:
->>> import mysql.connector
-# 注意把password设为你的root口令:
->>> conn = mysql.connector.connect(user='root', password='password', database='test', use_unicode=True)
->>> cursor = conn.cursor()
+## pipenv install mysql-connector-python
+
+import mysql.connector
+
+
+config = {
+    'host': '127.0.0.1',
+    'user': 'demo',
+    'password': 'demo123',
+    'port': 3306,
+    'database': 'demodb',
+    'charset': 'utf8'
+}
+
+## ** 这里被称为关键字参数
+conn = mysql.connector.connect(**config)
+
+cursor = conn.cursor()
+
 # 创建user表:
->>> cursor.execute('create table user (id varchar(20) primary key, name varchar(20))')
+cursor.execute('create table user (id varchar(20) primary key, name varchar(20))')
 # 插入一行记录，注意MySQL的占位符是%s:
->>> cursor.execute('insert into user (id, name) values (%s, %s)', ['1', 'Michael'])
->>> cursor.rowcount
-1
+cursor.execute('insert into user (id, name) values (%s, %s)', ['1', 'Michael'])
+
+print(cursor.rowcount)
+
 # 提交事务:
->>> conn.commit()
->>> cursor.close()
+conn.commit()
+cursor.close()
+
 # 运行查询:
->>> cursor = conn.cursor()
->>> cursor.execute('select * from user where id = %s', ('1',))
->>> values = cursor.fetchall()
->>> values
-[(u'1', u'Michael')]
+
+cursor = conn.cursor()
+cursor.execute('select * from user where id = %s', ('1',))
+values = cursor.fetchall()
+print(values)
 # 关闭Cursor和Connection:
->>> cursor.close()
-True
->>> conn.close()
+cursor.close()
+conn.close()
+
 ~~~
 由于Python的DB-API定义都是通用的，所以，操作MySQL的数据库代码和SQLite类似。
 
