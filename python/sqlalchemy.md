@@ -24,7 +24,7 @@ class User(Base):
     name = Column(String(20))
 
 # 初始化数据库连接:
-engine = create_engine('mysql+mysqlconnector://jxt:jxt-!1refine@114.116.96.150:6000/refinedb')
+engine = create_engine('mysql+mysqlconnector://root:password123@100.116.96.*:3306/refinedb')
 # 创建DBSession类型:
 DBSession = sessionmaker(bind=engine)
 
