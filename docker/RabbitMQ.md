@@ -3,17 +3,17 @@ RabbitMQ作为一款消息队列中间件，目前比较流行，比较稳定，
 这里注意获取镜像的时候要获取management版本的，不要获取last版本的，management版本的才带有管理界面。
 # 获查询镜像
 ~~~
- docker search rabbitmq:management
+ docker search rabbitmq-management
 ~~~
 
 # 获取镜像
 ~~~
-docker pull rabbitmq:management
+docker pull macintoshplus/rabbitmq-management
 ~~~
 
 # 运行镜像
 ~~~
-docker run -d -p 5672:5672 -p 15672:15672 --name rabbitmq rabbitmq:management
+docker run -d -p 5672:5672 -p 15672:15672 --name rabbitmq macintoshplus/rabbitmq-management
 ~~~
 
 #访问管理界面
