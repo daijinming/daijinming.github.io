@@ -4,3 +4,6 @@
 # dotnet new 命令 
 [dotnet new 命令 ](https://docs.microsoft.com/zh-cn/dotnet/core/tools/dotnet-new?tabs=netcore21)
 
+# 了解适用于 .NET Core 的 Docker 映像
+[了解适用于 .NET Core 的 Docker 映像](https://docs.microsoft.com/zh-cn/dotnet/core/docker/building-net-docker-images)
+
