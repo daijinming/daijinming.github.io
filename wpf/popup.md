@@ -10,3 +10,6 @@ https://www.c-sharpcorner.com/UploadFile/mahesh/using-xaml-popup-in-wpf/
 
 - Popup in WPF
 https://www.codeproject.com/Tips/718302/Popup-in-WPF
+
+- Understanding WPF popups
+https://dzone.com/articles/understanding-wpf-popups
