@@ -16,7 +16,7 @@ https://dzone.com/articles/understanding-wpf-popups
 
 
 - Drag WPF Popup control
-
+https://stackoverflow.com/questions/222029/drag-wpf-popup-control
 >the WPF Popup control is nice, but somewhat limited in my opinion. is there a way to "drag" a popup around when it is opened (like with the DragMove() method of windows)?
 
 >Here's a simple solution using a Thumb.
