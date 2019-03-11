@@ -58,3 +58,6 @@ public partial class DraggablePopup : Popup
     }
 }
 ~~~
+
+- Draggable Popup
+https://www.codeproject.com/Tips/1162455/Draggable-Popup
