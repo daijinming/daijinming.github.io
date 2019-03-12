@@ -61,3 +61,8 @@ public partial class DraggablePopup : Popup
 
 - Draggable Popup
 https://www.codeproject.com/Tips/1162455/Draggable-Popup
+
+
+- Popup Placement Behavior
+
+https://docs.microsoft.com/en-us/dotnet/framework/wpf/controls/popup-placement-behavior
