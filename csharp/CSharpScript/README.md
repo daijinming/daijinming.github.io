@@ -4,3 +4,7 @@ https://blog.jayway.com/2015/05/09/using-roslyn-to-build-a-simple-c-interactive-
 - CSharpScript API 说明 
 
 https://github.com/dotnet/roslyn/wiki/Scripting-API-Samples
+
+-MirrorSharp 
+MirrorSharp is a code editor <textarea> built on Roslyn and CodeMirror
+  https://github.com/ashmind/mirrorsharp
