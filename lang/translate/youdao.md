@@ -63,3 +63,4 @@ public class YouDao {
     }
 其中，md5() 和 getUrlWithQueryString() 可以利用 JAVA DEMO 提供的方法。
 
+https://blog.csdn.net/hujingshuang/article/details/80177784
