@@ -1,3 +1,4 @@
+~~~
 <?php
 $text=$_GET["text"];
 
@@ -53,3 +54,4 @@ function tocurl($url, $header, $content){
   return $response;
 }
 ?>
+~~~
