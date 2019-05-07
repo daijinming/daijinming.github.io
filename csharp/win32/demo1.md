@@ -1,3 +1,4 @@
+~~~
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -72,7 +73,7 @@ namespace WindowsFormsApplication1
 
     }
 }
-
+~~~
 ---------------------
 根据窗体的Caption和Class获取窗体的句柄  
 https://blog.csdn.net/elrphant/article/details/7231754
