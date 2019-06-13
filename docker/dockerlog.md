@@ -10,3 +10,8 @@ Docker 引擎日志 一般是交给了 Upstart(Ubuntu 14.04) 或者 systemd (Cen
 
 
 [日志都在哪里？怎么收集？](https://www.cnblogs.com/YatHo/p/7866029.html)
+
+EFK(Elasticsearch + Fluentd + Kibana)方式进行Docker日志收集、检索展示  
+https://blog.csdn.net/xcbeyond/article/details/86060468
+
+
