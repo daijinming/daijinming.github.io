@@ -26,3 +26,5 @@ export class ExternalUrlDirective {
     }
 }
 ~~~
+# The Angular 6|7 Router: Using RouterLink, Navigate or NavigateByUrl
+https://www.techiediaries.com/angular-router-routerlink-navigate-navigatebyurl/
