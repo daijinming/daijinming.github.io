@@ -27,3 +27,6 @@ officedocument.spreadsheetml.sheet"},
             };  
         } 
 ~~~
+
+https://www.c-sharpcorner.com/article/upload-download-and-delete-blob-files-using-asp-net-core-and-angular-8/
+
