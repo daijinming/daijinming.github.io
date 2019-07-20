@@ -6,3 +6,5 @@ hasAnyRole([role1,role2])
 
 多个角色是一个以逗号进行分隔的字符串。如果当前用户拥有指定角色中的任意一个则返回true。
 
+- https://www.cnblogs.com/fenglan/p/5913463.html
+
