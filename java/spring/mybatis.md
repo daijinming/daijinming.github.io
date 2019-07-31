@@ -26,3 +26,8 @@ List<Student> queryStudentsBySql(int currPage, int pageSize);
     }
 sql分页语句如下：select * from table limit index, pageSize;
 ```
+
+## 多数据库源
+
+https://github.com/mybatis/spring-boot-starter/issues/78
+
